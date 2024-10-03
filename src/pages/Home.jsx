@@ -14,6 +14,8 @@ function Home() {
     useEffect(()=>{
         fetchBlogs()
     },[])
+
+    console.log(blogs)
     return(
         <>
         <Navbar/>

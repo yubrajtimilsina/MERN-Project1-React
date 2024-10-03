@@ -1,7 +1,7 @@
 
 
-function Card(props){
-    console.log(props)
+function Card(blog){
+
 
     return(
         <div className="flex px-3 py-3">
